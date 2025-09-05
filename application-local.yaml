@@ -9,9 +9,10 @@ easypost:
     request:
       service:
         url: /ShipRequests
-  close-carrier:
-    service:
-      url: /CloseCarrierRequests
+  close:
+    carrier:
+      service:
+        url: /CloseCarrierRequests
   void:
     service:
       url: /VoidRequests
