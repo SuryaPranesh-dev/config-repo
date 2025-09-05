@@ -2,15 +2,21 @@ easypost:
   api:
     base-url: https://cedona.dev.easypost-enterprise.com/blackBoxEndPoints
   rateshop:
-    service-url: /RateRequests
+    service:
+      url: /RateRequests
   ship:
-    request-service-url: /ShipRequests
+    request:
+      service:
+        url: /ShipRequests
   close-carrier:
-    service-url: /CloseCarrierRequests
+    service:
+      url: /CloseCarrierRequests
   void:
-    service-url: /VoidRequests
+    service:
+      url: /VoidRequests
   reprint:
-    service-url: /ReprintRequests
+    service:
+      url: /ReprintRequests
 
 spring:
   data:
