@@ -1,6 +1,7 @@
 easypost:
   api:
-    base-url: https://cedona.dev.easypost-enterprise.com/blackBoxEndPoints
+    base:
+      url: https://cedona.dev.easypost-enterprise.com/blackBoxEndPoints
   rateshop:
     service:
       url: /RateRequests
