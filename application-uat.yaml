@@ -1,0 +1,19 @@
+easypost:
+  api:
+    base-url: https://cedona.dev.easypost-enterprise.com/blackBoxEndPoints
+  rateshop:
+    service-url: /RateRequests
+  ship:
+    request-service-url: /ShipRequests
+  close-carrier:
+    service-url: /CloseCarrierRequests
+  void:
+    service-url: /VoidRequests
+  reprint:
+    service-url: /ReprintRequests
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://spranesh:rCjNPbnCQH69kxto@cluster0.ytbwj4d.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      database: easypost
