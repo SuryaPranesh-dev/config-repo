@@ -1,8 +1,7 @@
 easypost:
   api:
-    base:
-      url: https://cedona.dev.easypost-enterprise.com/blackBoxEndPoints
-    key: 1C9lA-2dXvpg5cZqKszQjP-1IuX3HhJzE4LrB0yYnKw
+    base-url: https://cedona.dev.easypost-enterprise.com/blackBoxEndPoints
+    key: 7C9lA-2dXvpg5cZqKszQjP-1IuX3HhJzE4LrB0yYnKw
   rateshop:
     service:
       url: /RateRequests
@@ -14,7 +13,7 @@ easypost:
     carrier:
       service:
         url: /CloseCarrierRequests
-  void:
+  void-config:
     service:
       url: /VoidRequests
   reprint:
