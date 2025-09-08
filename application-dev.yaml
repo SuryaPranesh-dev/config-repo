@@ -2,6 +2,9 @@ easypost:
   api:
     base-url: https://cedona.dev.easypost-enterprise.com/blackBoxEndPoints
     key: 1C9lA-2dXvpg5cZqKszQjP-1IuX3HhJzE4LrB0yYnKw
+  basicauth:
+    username: myuser
+    password: mypass
   rateshop:
     service:
       url: /RateRequests
